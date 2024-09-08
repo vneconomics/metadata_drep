@@ -1,0 +1,173 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "doNotList": "CIP119:doNotList",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158202fd3ec7f3f2ef66fa857297d4cb9ffa08ca7fc21821abf5894bbad169367abf5"
+        },
+        "signature": {
+          "@value": "845846a20127676164647265737358390129caef84d66bb948d1db3ec1a862e8b006f2893b6b46355ae8d46a256f3078b0d6c97f8e5f7201b90a52e4e077665c47ac1f14bd86a4b1eba166686173686564f458445665726966792044526570206472657031736c7673737674307475787a666d3463356478307a7236716c3676363361326439306d306d35653333306a766a68347676647458409c8350a93f3ac6f1182e026b1ab00fd8ba25b12414373f89359ef101961cb49772630a9e291ed7fef6452c5d82380b5460f966b9440dc83b93685c45bfd04a09"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Full-time Lecturer | Digital Marketer | Blockchain - Crypto - NFT - Web3 Enthusiast | Ex-KPMG | Ex-Vexere | Ex-Chailease | $ADA $BTC Holder"
+    },
+    "doNotList": {
+      "@value": "false"
+    },
+    "email": {
+      "@value": "info.vneconomics@gmail.com"
+    },
+    "givenName": {
+      "@value": "VNEconomics"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmYRh1JqY1XGfaZXdr9uiDa1xwVhnaL6HcBWBfvB3VgQye",
+      "sha256": "3e98218c785b25960735497b2562a08542b267cfe01578f6e20494a886d7d38e"
+    },
+    "motivations": {
+      "@value": "With my personal and professional experiences I think if I become a Drep, I can support a lot of Cardano holders to chose the right proposals, especially it is relative to marketing field.  \n\nI have over 08 years of experience in the Marketing field, specializing in Digital Marketing. I got MBA degree and currently, I am a full-time Lecturer at Nguyen Tat Thanh University, where I have the opportunity to share my knowledge and expertise with potential marketers.\n\nThroughout my career, I have developed a strong proficiency in various aspects of Digital Marketing. I possess extensive knowledge and hands-on experience in website development using WordPress, as well as implementing effective SEO strategies to optimize online visibility and drive organic traffic. I am passionate about staying up-to-date with the latest digital trends, tools, and techniques, allowing me to consistently deliver impactful marketing campaigns."
+    },
+    "objectives": {
+      "@value": "As a DRep, my primary objective is to increase global awareness of the Cardano ecosystem, making it accessible and understood by a broader audience. I aim to leverage decentralized marketing strategies that promote transparency, privacy, and community-driven growth. By supporting projects that highlight Cardano's strengths - such as its scalability, sustainability, and real-world use cases - I will help attract more users, developers, and enterprises. This includes collaborating with influencers, expanding partnerships, and educating the public on how Cardano's blockchain technology can revolutionize various industries"
+    },
+    "paymentAddress": {
+      "@value": "addr1qy5u4muy6e4mjjx3mvlvr2rzazcqdu5f8d45vd26ar2x5ft0xputp4kf07897usphy999e8qwan9c3avru2tmp4yk84sexg88v"
+    },
+    "qualifications": {
+      "@value": "- Full-time Lecture at Nguyen Tat Thanh University\n- Google Scholar: https://scholar.google.com/citations?user=e-69HSYAAAAJ&hl=en\n- MBA degree, ex-KPMG\n- Funded Proposer in fund 8, 9: Cardano Annual Market Report & Cardano Forest - blocktree.asia\n- Cardano Community Advisor (Fund 8,9,10,11,12)\n- 08 years of experience in Marketing\n- 05 years of experience in Digital Marketing (Strongest in WordPress, SEO, Social and Community Marketing)\n- 04 years of experience in the Blockchain Industry\n- Founder www.vneconomics.com (objective is to increase cognition of Vietnamese about Blockchain Technology)\n= Co-Founder https://blocktree.asia/en/ (A blockchain-based platform connecting Sponsors and Planters to authenticate reforestation work)\n- Linked In: https://www.linkedin.com/in/tranthanhtung37/"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "LinkedIn_Profile"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/tranthanhtung37/"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Website"
+        },
+        "uri": {
+          "@value": "https://vneconomics.com/"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X_Profile"
+        },
+        "uri": {
+          "@value": "https://twitter.com/ThanhTung78"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X_Company"
+        },
+        "uri": {
+          "@value": "https://twitter.com/vneconomics_com"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Telegram_Company"
+        },
+        "uri": {
+          "@value": "https://t.me/BlockchainDEco"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Facebook_Company"
+        },
+        "uri": {
+          "@value": "https://www.facebook.com/vneconomics"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "LinkedIn_Company"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/company/vneconomics/"
+        }
+      }
+    ]
+  }
+}
